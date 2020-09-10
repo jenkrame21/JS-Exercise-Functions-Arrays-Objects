@@ -15,7 +15,7 @@
 function addNumbers(num1, num2) {
   return num1 + num2;
 }
-
+console.log(addNumbers(5, 3));
 // ⭐️ Example Challenge end ⭐️
 
 
@@ -39,10 +39,18 @@ function addNumbers(num1, num2) {
  *   email: "leia@leia.com",
  * }
 */
-function makePersonObject(/* code here */) {
-  /* code here */
-}
+const user = {
+  id: 5,
+  name: "Leia",
+  email: "leia@leia.com",
+};
+console.log(user[id][name][email]);
 
+// function makePersonObject(id, name, email) {
+//     for (let id in user){
+//     }
+// }
+// console.log(makePersonObject(5, "Leia", "leia@leia.com"))
 /**
  * ### Challenge `getName`
  * 
